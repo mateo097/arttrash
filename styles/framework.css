@@ -1,0 +1,48 @@
+:root{
+    --green:#b9fbc0;
+    --lightBlue: #8eecf5;
+    --blue: #90dbf4;
+    --darkBlue: #a3c4f3;
+    --violet: #cfbaf0;
+    --pink: #f1c0e8;
+    --red: #ffcfd2;
+    --yellow: #fbf8cc; 
+} 
+body{
+    background-color: #212529;
+}
+.pointer{
+    cursor: pointer;
+}
+.border-green{
+    border: var(--green) solid 1px;
+    border-radius: 0.5rem;
+}
+.border-yellow{
+    border: var(--yellow) solid 1px;
+    border-radius: 0.5rem;
+}
+.p-1{
+    padding: 0.5rem;
+}
+.p-3{
+    padding: 3rem;
+}
+.m-1{
+    margin: 1rem ;
+}
+.m-3{
+    margin: 3rem;
+}
+.m-top-1{
+    margin-top: 25px;
+}
+.color-yellow{
+    color: var(--yellow);
+}
+.color-red{
+    color: var(--red);
+}
+.size-big{
+    font-size: 2rem;
+}

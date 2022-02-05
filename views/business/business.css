@@ -1,0 +1,5 @@
+.business-layout{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
